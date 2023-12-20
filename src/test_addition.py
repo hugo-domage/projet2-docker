@@ -8,4 +8,4 @@ def test_add():
     
 def test_add_string():
     with pytest.raises(TypeError):
-        add("string", 4
+        add("string", 4)
